@@ -1,3 +1,15 @@
+# Alpha test code, this is the first pass at a new Weather Map Card
+
+This is a fork with massive rewriute of the Weather Radard Card for home assistant.
+
+Known issues:
+
+[ ] Marker does not show up
+[ ] Mobile locations are not implmented
+[ ] Panel cards behave weirdly
+[ ] Sections sidzing is not yet implmented
+[ ] lost of test and debug needed
+
 # Weather Radar Card (MapTiler Edition)
 
 A Home Assistant weather radar card powered by the **MapTiler Weather SDK**. This card provides a high-performance, interactive map with continuous radar history and forecast animations, globe/mercator projections, and multiple weather data layers.
@@ -5,11 +17,6 @@ A Home Assistant weather radar card powered by the **MapTiler Weather SDK**. Thi
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge)](https://github.com/hacs/integration)
 ![Maintenance](https://img.shields.io/maintenance/yes/2026?style=for-the-badge)
 
-## Support
-
-Help support development with a donation!
-
-[![coffee](https://www.buymeacoffee.com/assets/img/custom_images/black_img.png)](https://www.buymeacoffee.com/theOzzieRat)
 
 ## Description
 
@@ -73,18 +80,10 @@ You can set `mobile_center_latitude`, etc., to override values specifically when
 ## Installation
 
 ### Via HACS
-1. Search for `Weather Radar Card` in HACS.
-2. Click **Install**.
-3. Add the card to your dashboard.
+Not yet.
 
 ### Manual Installation
-1. Download `weather-radar-card.js` from the [latest release](https://github.com/makin-things/weather-radar-card/releases).
-2. Upload to `www/community/weather-radar-card/`.
-3. Register the resource in Home Assistant:
-   ```yaml
-   url: /local/community/weather-radar-card/weather-radar-card.js
-   type: module
-   ```
+If you are not comfortable cloning git repost don't install this yet.
 
 ## Changelog
 See [CHANGELOG.md](CHANGELOG.md) for full history.
