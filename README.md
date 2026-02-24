@@ -1,14 +1,14 @@
 # Alpha test code, this is the first pass at a new Weather Map Card
 
-This is a fork with massive rewriute of the Weather Radard Card for home assistant.
+This is a fork with massive rewrite of the [Weather Radar Card](https://github.com/Makin-Things/weather-radar-card) for home assistant.
 
 Known issues:
 
-[ ] Marker does not show up
-[ ] Mobile locations are not implmented
-[ ] Panel cards behave weirdly
-[ ] Sections sidzing is not yet implmented
-[ ] lost of test and debug needed
+- [ ] Marker does not show up
+- [ ] Mobile locations are not implmented
+- [ ] Panel cards behave weirdly
+- [ ] Sections sidzing is not yet implmented
+- [ ] Lots of test and debug needed
 
 # Weather Radar Card (MapTiler Edition)
 
@@ -74,7 +74,7 @@ You can specify coordinates in three ways:
 2. **Entity ID**: `"device_tracker.my_phone"` (uses the `latitude` and `longitude` attributes).
 3. **Advanced**: `{ "entity": "sensor.my_location", "latitude_attribute": "lat_attr" }`
 
-### Mobile Overrides
+### Mobile Overrides  (not yet implmented)
 You can set `mobile_center_latitude`, etc., to override values specifically when the card is accessed from the Home Assistant mobile app or a mobile browser.
 
 ## Installation
