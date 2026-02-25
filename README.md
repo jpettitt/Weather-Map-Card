@@ -7,8 +7,9 @@ Known issues:
 - [ ] Marker does not show up
 - [ ] Mobile locations are not implmented
 - [ ] Panel cards behave weirdly
-- [ ] Sections sidzing is not yet implmented
+- [ ] Sections sizing is not yet implmented
 - [ ] Lots of test and debug needed
+- [ ] Zoom works to all levels but radar resolution doesn't increse withe zoom (data provider limitation) 
 
 # Weather Radar Card (MapTiler Edition)
 
