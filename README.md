@@ -3,7 +3,7 @@
 This is a fork with massive rewrite of the [Weather Radar Card](https://github.com/Makin-Things/weather-radar-card) for home assistant.
 
 Known issues:
-
+- [ ] **Can't be installed via HACS**
 - [ ] Marker does not show up
 - [ ] Mobile locations are not implmented
 - [ ] Panel cards behave weirdly
